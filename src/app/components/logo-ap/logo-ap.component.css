@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 0.5em;
+}
+#logoAP{
+    width: 250px; /* altura del baner superior login*/
+}
+img{
+    width: 80px; /*tamaño redessociales*/
+}
+.btn{
+    border-width: medium;
+}
+

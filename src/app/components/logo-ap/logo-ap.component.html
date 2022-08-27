@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            
+            <img src="https://i.imgur.com/tpdm0TA.png" class="img-fluid" id="logoAP">
+            
+        </div>
+        <div class="redes">
+            <a href="/login"><img src="https://i.imgur.com/Z6l8jnb.png" id="linkedin"></a>
+            <a href="https://twitter.com"><img src="https://i.imgur.com/HObO6VD.png" id="twitter"></a>
+            <a href=""><img src="https://i.imgur.com/080wzlR.png" id="instagram"></a>
+            <a href="https://github.com/davidsendra"><img src="https://img.icons8.com/material-sharp/24/000000/github.png" id="github"></a>
+            <a href=""><img src="https://i.imgur.com/0bt0Zv7.png" id="facebook"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>
+

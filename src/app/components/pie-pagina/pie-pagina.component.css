@@ -1,0 +1,11 @@
+.row {
+    background: rgb(130, 137, 224);
+}
+footer{
+    color: #08396e;   /*color letra foter*/
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px -2px   5px rgb(23, 35, 197); /*rallita divisoria*/
+}
