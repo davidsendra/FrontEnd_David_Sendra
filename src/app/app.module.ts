@@ -22,8 +22,15 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { PiePaginaComponent } from './components/pie-pagina/pie-pagina.component';
-import { NuevoPorcentual } from './components/hys/nueva-hys_html';
 import { EditHysComponent } from './components/hys/edit-hys_html';
+import { HysedicionredesComponent } from './components/redes/edit-redes_html';
+import { HysredesComponent } from './components/redes/redes.component';
+import { HysgithubComponent } from './components/github/github.component';
+import { EditgithubComponent } from './components/github/edit-github_html';
+import { HysactitudComponent } from './components/actitud/actitud.component';
+//import { HysedicionactitudComponent } from './components/actitud/edit-actitud_html';
+import { EditactitudComponent } from './components/actitud/edit-actitud_html';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +50,14 @@ import { EditHysComponent } from './components/hys/edit-hys_html';
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
-    NuevoPorcentual,
+    HysedicionredesComponent,
+    HysredesComponent,
+    HysredesComponent,
+    EditgithubComponent,
+    HysgithubComponent,
+    //HysedicionactitudComponent,
+    HysactitudComponent,
+    EditactitudComponent,
     EditHysComponent
   ],
   imports: [
@@ -52,9 +66,7 @@ import { EditHysComponent } from './components/hys/edit-hys_html';
     BrowserAnimationsModule,
     FormsModule,
     NgCircleProgressModule.forRoot({
-     "radius": 90 ,
-     "percent": 90 ,
-    
+        
     }),
     HttpClientModule
   ],

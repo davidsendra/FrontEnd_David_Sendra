@@ -1,4 +1,4 @@
-export class hys_html {
+export class hys_redes {
     id? : number;
     porcentualE : number;
    
