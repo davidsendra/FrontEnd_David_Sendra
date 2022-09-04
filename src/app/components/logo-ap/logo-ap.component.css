@@ -4,15 +4,16 @@
     align-items: center;
 }
 .redes{
-    margin-right: 0.5em;
+    margin-right: 1.5em;
 }
 #logoAP{
     width: 250px; /* altura del baner superior login*/
 }
 img{
-    width: 80px; /*tamaño redessociales*/
+    width: 50px; /*tamaño redessociales*/
 }
 .btn{
+    margin-left: 1.5em;
     border-width: medium;
 }
 

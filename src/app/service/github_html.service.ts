@@ -7,7 +7,7 @@ import { hys_github } from '../model/hys_github';
   providedIn: 'root'
 })
 export class Shys_githubService {
-  gitURL = 'http://localhost:8080/porc_github/'; 
+  gitURL = 'https://backdavidsendra.herokuapp.com/porc_github/'; 
 
   constructor(private httpClient: HttpClient) { }
 
