@@ -10,6 +10,9 @@ import { EditHysComponent } from './components/hys/edit-hys_html';
 import { HysedicionredesComponent} from  './components/redes/edit-redes_html';
 import { EditgithubComponent } from  './components/github/edit-github_html';
 import { EditactitudComponent } from  './components/actitud/edit-actitud_html';
+import { HysediciontjavaComponent} from  './components/tjava/edit-tjava_html';
+import { HysedicionjscriptComponent} from  './components/jscript/edit-jscript_html';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +25,8 @@ const routes: Routes = [
   { path: 'editredes/:id', component: HysedicionredesComponent},
   { path: 'editgithub/:id', component: EditgithubComponent},
   { path: 'editactitud/:id', component: EditactitudComponent},
+  { path: 'edittjava/:id', component: HysediciontjavaComponent},
+  { path: 'editjscript/:id', component: HysedicionjscriptComponent},
 ]
 
 @NgModule({

@@ -1,0 +1,16 @@
+<div class="container" *ngIf="Porc_jscript">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="porcentualE">Porcentaje</label>
+                    <input type="text" class="form-control" id="porcentualE" name="porcentualE" [(ngModel)]="Porc_jscript.porcentualE" required>
+                </div>
+                
+                <button class="btn btn-primary">
+                    Actualizar
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

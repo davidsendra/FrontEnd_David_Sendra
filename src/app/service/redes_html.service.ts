@@ -7,7 +7,7 @@ import { hys_redes } from '../model/hys_redes';
   providedIn: 'root'
 })
 export class Shys_redesService {
-  redesURL = 'https://backdavidsendra.herokuapp.com/porc_redes/'; 
+  redesURL = 'http://localhost:8080/porc_redes/'; 
 
   constructor(private httpClient: HttpClient) { }
 

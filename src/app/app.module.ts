@@ -28,8 +28,13 @@ import { HysredesComponent } from './components/redes/redes.component';
 import { HysgithubComponent } from './components/github/github.component';
 import { EditgithubComponent } from './components/github/edit-github_html';
 import { HysactitudComponent } from './components/actitud/actitud.component';
-//import { HysedicionactitudComponent } from './components/actitud/edit-actitud_html';
 import { EditactitudComponent } from './components/actitud/edit-actitud_html';
+import { HysediciontjavaComponent } from './components/tjava/edit-tjava_html';
+import { HystjavaComponent } from './components/tjava/tjava.component';
+import { HysedicionjscriptComponent } from './components/jscript/edit-jscript_html';
+import { HysjscriptComponent } from './components/jscript/jscript.component';
+
+
 
 
 @NgModule({
@@ -51,14 +56,16 @@ import { EditactitudComponent } from './components/actitud/edit-actitud_html';
     NeweducacionComponent,
     EditeducacionComponent,
     HysedicionredesComponent,
+    HysediciontjavaComponent,
     HysredesComponent,
-    HysredesComponent,
+    HystjavaComponent,
     EditgithubComponent,
     HysgithubComponent,
-    //HysedicionactitudComponent,
     HysactitudComponent,
     EditactitudComponent,
-    EditHysComponent
+    EditHysComponent,
+    HysjscriptComponent,
+    HysedicionjscriptComponent
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@ import { hys_actitud } from '../model/hys_actitud';
   providedIn: 'root'
 })
 export class Shys_actitudService {
-  actURL = 'https://backdavidsendra.herokuapp.com/porc_actitud/'; 
+  actURL = 'http://localhost:8080/porc_actitud/'; 
 
   constructor(private httpClient: HttpClient) { }
 

@@ -1,0 +1,33 @@
+<div class="row">
+    <h1> JAVA</h1>
+
+    <div class="text-center ">
+        <table class="table">
+            <tbody>
+
+                <tr *ngFor="let hys_tjava of tjava">
+
+                     <td>
+                            <h3>{{hys_tjava.porcentualE}}</h3>
+                        </td> 
+
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-success" routerLink="/edittjava/{{hys_tjava.id}}">
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                    </td>
+
+                    <div class="text-center ">
+                        <circle-progress [percent]="hys_tjava.porcentualE" [radius]="90" [imageSrc]="'https://i.imgur.com/eyiJJOy.png'"
+                            [showImage]="true" [imageHeight]="70" [imageWidth]="70" [showUnits]="false"
+                            [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="2"
+                            [outerStrokeColor]="'#FF0000'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                            [animationDuration]="600"></circle-progress>
+                    </div>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+        
+</div>
+
+
