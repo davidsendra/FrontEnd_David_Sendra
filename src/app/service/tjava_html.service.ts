@@ -7,7 +7,8 @@ import { hys_tjava } from '../model/hys_tjava';
   providedIn: 'root'
 })
 export class Shys_tjavaService {
-  tjavaURL = 'http://localhost:8080/porc_tjava/'; 
+  tjavaURL = 'https://backdavidsendra.herokuapp.com/porc_tjava/'; 
+  //tjavaURL = 'http://localhost:8080/porc_tjava/'; 
 
   constructor(private httpClient: HttpClient) { }
 

@@ -9,7 +9,7 @@
                 <tr *ngFor="let hys_github of github">
 
                      <td>
-                            <h3>{{hys_github.porcentualE}}</h3>
+                            <h3>{{hys_github.porcentualE}} %</h3>
                         </td> 
 
                     <td *ngIf="isLogged">
@@ -21,7 +21,7 @@
                         <circle-progress [percent]="hys_github.porcentualE" [radius]="90" [imageSrc]="'https://img.icons8.com/material-sharp/24/000000/github.png'" 
                             [showImage]="true" [imageHeight]="70" [imageWidth]="70" [showUnits]="false"
                             [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="2"
-                            [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                            [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#000000'" [animation]="true"
                             [animationDuration]="600"></circle-progress>
                     </div>
                 </tr>

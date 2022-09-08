@@ -19,10 +19,10 @@ export class HysedicionredesComponent implements OnInit {
     this.shys_redes.detail(id).subscribe(
       data =>{
         this. Porc_redes = data;
-      },// err =>{
-        //alert("Error al modificar porcentuage");
-      //  this.router.navigate(['']);
-      //}
+      }, err =>{
+        alert("Error al modificar porcentuage");
+       this.router.navigate(['']);
+      }
     )
   }
 

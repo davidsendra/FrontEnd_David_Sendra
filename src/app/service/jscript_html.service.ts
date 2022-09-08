@@ -7,7 +7,8 @@ import { hys_jscript } from '../model/hys_jscript';
   providedIn: 'root'
 })
 export class Shys_jscriptService {
-  jscriptURL = 'http://localhost:8080/porc_jscript/'; 
+  jscriptURL = 'https://backdavidsendra.herokuapp.com/porc_jscript/'; 
+  //jscriptURL = 'http://localhost:8080/porc_jscript/'; 
 
   constructor(private httpClient: HttpClient) { }
 

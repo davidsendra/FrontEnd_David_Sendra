@@ -8,7 +8,7 @@
                 <tr *ngFor="let hys_jscript of jscript">
 
                      <td>
-                            <h3>{{hys_jscript.porcentualE}}</h3>
+                            <h3>{{hys_jscript.porcentualE}} %</h3>
                         </td> 
 
                     <td *ngIf="isLogged">
@@ -20,7 +20,7 @@
                         <circle-progress [percent]="hys_jscript.porcentualE" [radius]="90" [imageSrc]="'https://i.imgur.com/eyiJJOy.png'"
                             [showImage]="true" [imageHeight]="70" [imageWidth]="70" [showUnits]="false"
                             [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="2"
-                            [outerStrokeColor]="'#FF0000'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                            [outerStrokeColor]="'#FFE900'" [innerStrokeColor]="'#000000'" [animation]="true"
                             [animationDuration]="600"></circle-progress>
                     </div>
                 </tr>

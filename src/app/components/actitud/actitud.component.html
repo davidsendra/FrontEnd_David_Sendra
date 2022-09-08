@@ -8,7 +8,7 @@
                 <tr *ngFor="let hys_actitud of actitud">
 
                      <td>
-                            <h3>{{hys_actitud.porcentualE}}</h3>
+                            <h3>{{hys_actitud.porcentualE}} %</h3>
                         </td> 
 
                     <td *ngIf="isLogged">
@@ -20,7 +20,7 @@
                         <circle-progress [percent]="hys_actitud.porcentualE" [radius]="90" [imageSrc]="'https://i.imgur.com/Jx7GAsF.png'"
                             [showImage]="true" [imageHeight]="70" [imageWidth]="70" [showUnits]="false"
                             [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="2"
-                            [outerStrokeColor]="'#78288C'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                            [outerStrokeColor]="'#78288C'" [innerStrokeColor]="'#000000'" [animation]="true"
                             [animationDuration]="600"></circle-progress>
                     </div>
                 </tr>

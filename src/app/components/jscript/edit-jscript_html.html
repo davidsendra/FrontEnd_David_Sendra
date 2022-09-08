@@ -7,9 +7,21 @@
                     <input type="text" class="form-control" id="porcentualE" name="porcentualE" [(ngModel)]="Porc_jscript.porcentualE" required>
                 </div>
                 
+                <p *ngIf="(Porc_jscript.porcentualE<= 100) && (Porc_jscript.porcentualE>= 0)else elseTemplate  ">
+                    Numero correcto
+                                      
+                
                 <button class="btn btn-primary">
                     Actualizar
                 </button>
+
+
+            </p>
+            
+                 <ng-template #elseTemplate>
+                    <p> Error , debe ser entre 0 y 100 </p>
+                 </ng-template>
+           
             </form>
         </div>
     </div>
